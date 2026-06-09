@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1000px) {
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .hero .map {
+        grid-column: auto;
+    }
+    .hero .info {
+        grid-column: auto;
+    }
+    .map .content {
+        width: 650px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .map .content {
+        width: 500px;
+        max-height: 550px;
+    }
+    .header .top_bar .left p:last-child {
+        display: none;
+    }
+    .button-home .text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .map .content {
+        width: 400px;
+    }
+    .header .bot_bar .logo {
+        width: 130px;
+        height: 130px;
+    }
+    .header .bot_bar {
+        height: 90px;
+    }
+
+    .header .top_bar {
+        font-size: 1rem;
+    }
+    .content-btns {
+        flex-direction: row;
+    }
+    .content-btns a {
+        margin: 0px 10px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .map .content {
+        width: 350px;
+    }
+    .info .card {
+        padding: 10px;
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .map .content {
+        width: 315px;
+    }
+}
